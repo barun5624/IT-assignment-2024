@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delivery - DaruPasalNepal</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <img src="logo.png" alt="DaruPasalNepal Logo" class="logo" />
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="whiskey.html">Available Liquors</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="delivery.html">Delivery</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="delivery">
+      <h1>Delivery</h1>
+      <form id="delivery-form" onsubmit="return calculateDeliveryCost(event)">
+        <label for="location">Your Location:</label>
+        <input type="text" id="location" name="location" required />
+        <button type="submit">Deliver</button>
+      </form>
+      <p id="delivery-cost" style="display: none">
+        Your delivery cost is: NPR <span id="cost-amount"></span>
+      </p>
+      <div class="map-container">
+        <img src="lubhu-map.jpg" alt="Map of Lubhu, Lalitpur, Nepal" />
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 DaruPasalNepal. All rights reserved.</p>
+      <p>
+        Follow us on: <a href="#" class="social-link">Facebook</a> |
+        <a href="#" class="social-link">Instagram</a> |
+        <a href="#" class="social-link">Twitter</a>
+      </p>
+    </footer>
+  </body>
+</html>
