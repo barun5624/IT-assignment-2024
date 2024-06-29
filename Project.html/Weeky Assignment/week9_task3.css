@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ccc;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.contact-info {
+    font-size: 0.9em;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.company-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.company-card {
+    background-color: #e0e0e0;
+    padding: 20px;
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+.company-card img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #ccc;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    width: calc(25% - 20px);
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    margin-top: 0;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-section img {
+    width: 100%;
+}

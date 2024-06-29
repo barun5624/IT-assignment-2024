@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Program</title>
+</head>
+<body>
+    <script>
+        // Prompt the user to input their name and student ID
+        let name = prompt("Enter your name:");
+        let studentId = prompt("Enter your student ID:");
+
+        // Check if the user provided input and display in an alert dialog box
+        if (name && studentId) {
+            let message = Hello, ${name}! Your Student ID is ${studentId}. Thank you for sharing.;
+            alert(message);
+        } else {
+            alert("Please provide both your name and student ID.");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Our Web Site</title>
+</head>
+<body>
+    <h1>Search our web site!</h1>
+    <form action="/search" method="get">
+        <p>Where do you want to search?</p>
+        <input type="radio" id="whole_site" name="search_section" value="whole_site" checked>
+        <label for="whole_site">Whole site</label><br>
+        <input type="radio" id="business_partners" name="search_section" value="business_partners">
+        <label for="business_partners">Business Partners Section</label><br>
+        <input type="radio" id="corporate_communications" name="search_section" value="corporate_communications">
+        <label for="corporate_communications">Corporate Communications Section</label><br>
+        <input type="radio" id="lotus_education" name="search_section" value="lotus_education">
+        <label for="lotus_education">Lotus Education Section</label><br><br>
+        
+        <label for="search_query">Enter a word or two that we can search on:</label><br>
+        <input type="text" id="search_query" name="search_query"><br><br>
+        
+        <input type="submit" value="Submit">
+        <input type="reset" value="Clear">
+    </form>
+</body>
+</html>

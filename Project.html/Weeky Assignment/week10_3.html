@@ -1,0 +1,72 @@
+[10:45 pm, 29/06/2024] Barun Ghimire: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+</head>
+<body>
+    <script>
+        let marks = prompt("Enter your marks:");
+
+        let grade = "";
+        switch (true) {
+            case (marks >= 80 && marks <= 100):
+                grade = "Distinction";
+                break;
+            case (marks >= 60 && marks < 80):
+                grade = "First Division";
+                break;
+            case (marks >= 50 && marks < 60):
+                grade = "Second Division";
+                break;
+            case (marks >= 40 && marks < 50):
+                grade = "Third Division";
+                break;
+            default:
+                grade = "Fail";
+        }
+
+        alert(Your grade is: ${grade});
+    </script>
+</body>
+</html>
+[10:47 pm, 29/06/2024] Barun Ghimire: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+</head>
+<body>
+    <script>
+        let marks = prompt("Enter your marks:");
+
+        if (marks !== null) {
+            let grade = "";
+            marks = parseInt(marks); // Convert input to integer
+
+            switch (true) {
+                case (marks >= 80 && marks <= 100):
+                    grade = "Distinction";
+                    break;
+                case (marks >= 60 && marks < 80):
+                    grade = "First Division";
+                    break;
+                case (marks >= 50 && marks < 60):
+                    grade = "Second Division";
+                    break;
+                case (marks >= 40 && marks < 50):
+                    grade = "Third Division";
+                    break;
+                default:
+                    grade = "Fail";
+            }
+
+            alert(Your grade is: ${grade});
+        } else {
+            alert("No input provided. Please enter your marks.");
+        }
+    </script>
+</body>
+</html>

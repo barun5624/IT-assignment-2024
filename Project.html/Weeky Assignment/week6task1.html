@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        .image-container {
+            margin: 20px;
+            float: left;
+        }
+        .image-container img {
+            border: 5px solid #ccc; /* Border for image1.jpg */
+            margin: 50px; /* Space around image4.png */
+        }
+        .image2 img {
+            width: 100px; /* Resize width of image2.jpg */
+            height: 100px; /* Resize height of image2.jpg */
+        }
+        .image3 {
+            float: right; /* Align image3.jpg to the right */
+        }
+        .clear {
+            clear: both; /* Clear floats */
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="image1.jpg" alt="Image 1">
+    </div>
+    <div class="image-container image2">
+        <a href="image2.jpg" target="_blank">
+            <img src="image2.jpg" alt="Image 2">
+        </a>
+    </div>
+    <div class="image-container image3">
+        <img src="image3.jpg" alt="Image 3">
+    </div>
+    <div class="image-container">
+        <img src="image4.png" alt="Image 4">
+    </div>
+    <div class="clear"></div>
+    <p>
+        My name is barun ghimire
+    </p>
+</body>
+</html>
